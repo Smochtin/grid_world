@@ -152,5 +152,4 @@ if __name__ == '__main__':
     q = V[:]
     pi = [ [['r','u'] for n in range(8)] for m in range(8)]
             
-    print(pi)
     a.draw_grid_result(pi,value_fct=V,q_fct=q)
