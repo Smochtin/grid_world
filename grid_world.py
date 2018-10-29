@@ -116,25 +116,25 @@ class grid:
         
     def l_dir(self, cords):
         x,y = cords
-        x_l, y_l = x - 0.25, y
+        x_l, y_l = x - 0.4, y
         plt.plot([x,x_l],[y,y_l],'b')
         #plt.show()
         
     def r_dir(self,cords):
         x,y = cords
-        x_l, y_l = x + 0.25, y
+        x_l, y_l = x + 0.4, y
         plt.plot([x,x_l],[y,y_l],'r')
         #plt.show()
     
     def up_dir(self,cords):
         x,y = cords
-        x_l, y_l = x, y+0.25
+        x_l, y_l = x, y+0.4
         plt.plot([x,x_l],[y,y_l],'orange')
         #plt.show()
         
     def dw_dir(self,cords):
         x,y = cords
-        x_l, y_l = x, y-0.25
+        x_l, y_l = x, y-0.4
         plt.plot([x,x_l],[y,y_l],'green')
         #plt.show()
     
