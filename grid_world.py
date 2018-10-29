@@ -6,7 +6,6 @@ Created on Sun Oct 28 21:32:50 2018
 @author: martinbensch
 """
 import matplotlib.pyplot as plt
-asd
 
 class grid:
     def __init__(self, size=None):
